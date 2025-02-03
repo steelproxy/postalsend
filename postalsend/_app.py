@@ -1,7 +1,6 @@
 _app_to_address = None
 _app_from_address = None
 
-
 def _set_app_name(name: str):
     global _app_name
     _app_name = name
