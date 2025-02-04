@@ -1,4 +1,4 @@
-from ._server import _get_api_key, _get_server
+from ._app import _get_api_key, _get_server
 from .errors import (
     PostalError, ParameterError, NoContent, TooManyToAddresses, TooManyCCAddresses,
     TooManyBCCAddresses, NoRecipients, FromAddressMissing,
